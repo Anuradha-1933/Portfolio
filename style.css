@@ -1,0 +1,89 @@
+.pfp{
+    width: 160px;
+    height: auto;
+    margin: auto;
+    border-radius: 50px;
+    padding: auto;
+}
+
+.linker{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+
+}
+mark{
+    background-color: #9a7dd4;
+}
+body{
+  
+  background:url(17925.jpg);
+    /* filter: blur(8px); */
+
+    background-repeat: no-repeat;
+}
+
+button {
+    margin: auto;
+    width: 70%;
+    height: 56px;
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: all .8s ease;
+  }
+.btn {
+    margin-left: 90%;
+    width: 40px;
+    height: 40px;
+    background-color: #dfdfdf;
+    border: black;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all .25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+  }
+
+button:hover{
+    background-color: #21dc75; 
+    transform: scale(1.02);/* Green */
+}
+
+
+/* Tooltip text */
+.btn .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .btn:hover .tooltiptext {
+    visibility: visible;
+  }
+
+   /* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+     button, .linker {
+      width: 100; /* The width is 100%, when the viewport is 800px or smaller */
+      
+    }
+  }
